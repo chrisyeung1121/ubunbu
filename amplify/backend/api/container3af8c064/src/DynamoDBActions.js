@@ -41,7 +41,7 @@ const scanPostsFromDDB = async () => {
 const getPostFromDDB = async (id) => {
     const key = parseInt(id, 10);
     var params = {
-        TableName:  'Posts' //TableName,
+        TableName:  'Posts', //TableName,
         Key: { id: key },
     }
     try {
