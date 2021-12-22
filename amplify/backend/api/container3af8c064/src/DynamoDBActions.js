@@ -26,7 +26,7 @@ const addPostToDDB = async ({ id, title, author, description, topic }) => {
 
 const scanPostsFromDDB = async () => {
     var params = {
-        TableName: TableName,
+        TableName: 'Posts' // TableName,
     }
 
     try {
@@ -41,7 +41,7 @@ const scanPostsFromDDB = async () => {
 const getPostFromDDB = async (id) => {
     const key = parseInt(id, 10);
     var params = {
-        TableName: TableName,
+        TableName:  'Posts' //TableName,
         Key: { id: key },
     }
     try {
