@@ -1,23 +1,24 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-ubunbu-dev-164829-authRole",
-            "UnauthRoleArn": "arn:aws:iam::987114135383:role/amplify-ubunbu-dev-164829-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::987114135383:role/amplify-ubunbu-dev-164829-authRole",
-            "Region": "ap-southeast-1",
-            "DeploymentBucketName": "amplify-ubunbu-dev-164829-deployment",
-            "UnauthRoleName": "amplify-ubunbu-dev-164829-unauthRole",
-            "StackName": "amplify-ubunbu-dev-164829",
-            "StackId": "arn:aws:cloudformation:ap-southeast-1:987114135383:stack/amplify-ubunbu-dev-164829/ff64f630-6346-11ec-9ed8-0a3dca9a3ea2",
-            "AmplifyAppId": "d1euqjoagwe4zr"
-        },
-        "categories": {
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "d1euqjoagwe4zr",
-                    "type": "cicd"
-                }
-            }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-ubunbu-dev-164829-authRole",
+      "UnauthRoleArn": "arn:aws:iam::987114135383:role/amplify-ubunbu-dev-164829-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::987114135383:role/amplify-ubunbu-dev-164829-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-ubunbu-dev-164829-deployment",
+      "UnauthRoleName": "amplify-ubunbu-dev-164829-unauthRole",
+      "StackName": "amplify-ubunbu-dev-164829",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:987114135383:stack/amplify-ubunbu-dev-164829/ff64f630-6346-11ec-9ed8-0a3dca9a3ea2",
+      "AmplifyAppId": "d1euqjoagwe4zr",
+      "NetworkStackS3Url": "https://s3.amazonaws.com/amplify-ubunbu-dev-164829-deployment/amplify-cfn-templates/networkingStackTemplate.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1euqjoagwe4zr",
+          "type": "cicd"
         }
+      }
     }
+  }
 }
