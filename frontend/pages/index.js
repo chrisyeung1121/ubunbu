@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import ProfilePic from '../components/ProfilePic/ProfilePic'
 
 export default function Home() {
   return (
@@ -15,6 +15,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Christopher is awesome.
         </h1>
+
+        <ProfilePic />
 
         <p className={styles.description}>
           Contact me if you want to understand the following topics
