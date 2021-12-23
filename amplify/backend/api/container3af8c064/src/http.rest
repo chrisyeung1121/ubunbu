@@ -1,0 +1,11 @@
+GET https://0686w6jz49.execute-api.ap-southeast-1.amazonaws.com/posts
+
+###
+
+POST https://0686w6jz49.execute-api.ap-southeast-1.amazonaws.com/post
+Content-Type: application/json
+
+{
+    "id": 3,
+    "title": "Development is a journey"
+}
