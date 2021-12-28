@@ -1,12 +1,12 @@
 import Image from 'next/image'
-import myPic from './me.jpg'
+// import myPic from './me.jpg'
 
 
 function ProfilePic() {
   return (
     <div>
       <Image
-        src={myPic}
+        src={"/me_in_public.jpg"}
         alt="my profile pic"
         width={500}
         height={500}
