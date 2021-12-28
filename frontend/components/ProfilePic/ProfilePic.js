@@ -6,7 +6,7 @@ function ProfilePic() {
   return (
     <div>
       <Image
-        src={"/me_in_public.jpg"}
+        src="/me_in_public.jpg"
         alt="my profile pic"
         width={500}
         height={500}
